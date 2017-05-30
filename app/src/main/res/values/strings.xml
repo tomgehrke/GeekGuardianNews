@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Geek Guardian News</string>
+    <string name="refresh_button">Refresh news!</string>
+    <string name="no_network">No network connection!</string>
+    <string name="no_news">No news found!</string>
+    <string name="article_thumbnail_description">Article thumbnail image</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="EmptyTextPadding">48dp</dimen>
+    <dimen name="NewsItemHeight">108dp</dimen>
+    <dimen name="ArticleInfoPadding">8dp</dimen>
+    <dimen name="ArticleSectionTextSize">11sp</dimen>
+    <dimen name="ArticleSectionMarginBottom">4dp</dimen>
+    <dimen name="ArticleTitleTextSize">12sp</dimen>
+    <dimen name="ArticleByLineTextSize">10sp</dimen>
+    <dimen name="ArticleDateTextSize">9sp</dimen>
+    <dimen name="ThumbnailWidth">120dp</dimen>
+    <dimen name="ThumbnailHeight">100dp</dimen>
+</resources>

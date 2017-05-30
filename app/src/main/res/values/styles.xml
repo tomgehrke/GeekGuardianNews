@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EmptyText">
+        <item name="android:padding">@dimen/EmptyTextPadding</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="ProgressBar">
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="NewsItem">
+        <item name="android:layout_height">@dimen/NewsItemHeight</item>
+    </style>
+
+    <style name="RefreshButton">
+        <item name="android:background">@color/colorRefreshButtonBackground</item>
+        <item name="android:textColor">@color/colorRefreshButtonForeground</item>
+    </style>
+
+    <style name="ArticleSection">
+        <item name="android:background">@color/colorSectionBackground</item>
+        <item name="android:textColor">@color/colorSectionForeground</item>
+        <item name="android:padding">@dimen/ArticleInfoPadding</item>
+        <item name="android:textSize">@dimen/ArticleSectionTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:layout_marginBottom">@dimen/ArticleSectionMarginBottom</item>
+    </style>
+
+    <style name="ArticleTitle">
+        <item name="android:paddingLeft">@dimen/ArticleInfoPadding</item>
+        <item name="android:paddingRight">@dimen/ArticleInfoPadding</item>
+        <item name="android:textSize">@dimen/ArticleTitleTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="ArticleByLine">
+        <item name="android:paddingLeft">@dimen/ArticleInfoPadding</item>
+        <item name="android:paddingRight">@dimen/ArticleInfoPadding</item>
+        <item name="android:textSize">@dimen/ArticleByLineTextSize</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="ArticleDate">
+        <item name="android:paddingLeft">@dimen/ArticleInfoPadding</item>
+        <item name="android:paddingRight">@dimen/ArticleInfoPadding</item>
+        <item name="android:textSize">@dimen/ArticleDateTextSize</item>
+    </style>
+
+    <style name="Thumbnail">
+        <item name="android:layout_width">@dimen/ThumbnailWidth</item>
+        <item name="android:layout_height">@dimen/ThumbnailHeight</item>
+    </style>
+
+</resources>
